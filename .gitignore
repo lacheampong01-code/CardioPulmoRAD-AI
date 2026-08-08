@@ -1,0 +1,25 @@
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# PyTorch Model Weights & Checkpoints
+*.pt
+*.pth
+*.bin
+*.weights
+
+# Medical Image Data (Prevent uploading DICOM/NIfTI files)
+*.dcm
+*.nii
+*.nii.gz
+*.png
+*.jpg
+
+# OS & Code Editor Settings
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
